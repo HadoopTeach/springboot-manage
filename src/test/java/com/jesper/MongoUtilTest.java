@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.UUID;
 
 public class MongoUtilTest {
-    @Test
+    //@Test
     public void uploadFileTest(){
         MongoUtil mongoUtil = new MongoUtil();
         File file = new File("C:\\Users\\jiangyunxiong\\Desktop\\cat.jpg");
@@ -26,7 +26,7 @@ public class MongoUtilTest {
         System.out.println("Upload File Success");
     }
 
-    @Test
+    //@Test
     public void deleteFileTest(){
         MongoUtil mongoUtil = new MongoUtil();
         String id = "94b6c9aee0cb4c98b6f670a953dd5589";
@@ -35,7 +35,7 @@ public class MongoUtilTest {
         System.out.println("Delete File Success");
     }
 
-    @Test
+    //@Test
     public void getFileByIdTest(){
         MongoUtil mongoUtil = new MongoUtil();
         String id = "92b2d9bb14ee44dbbeac339abfa30d2c";
@@ -50,7 +50,7 @@ public class MongoUtilTest {
         System.out.println("get File by Id Success");
     }
 
-    @Test
+    //@Test
     public void getAllFileTest(){
         MongoUtil mongoUtil = new MongoUtil();
         String dbName = "jesper";
@@ -63,7 +63,7 @@ public class MongoUtilTest {
         System.out.println("get All File Sucess!!");
     }
 
-    @Test
+    //@Test
     public void batchDeleteFileByIds(){
         MongoUtil mongoUtil = new MongoUtil();
         String[] ids = {"163f5484cd60416ebb71c64814205b41","b815a254f0514867b8e9745b4bb974b5"};

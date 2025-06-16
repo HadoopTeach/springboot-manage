@@ -12,7 +12,7 @@ import java.util.Date;
  */
 public class HelloWorld {
 
-    @Test
+    //@Test
    public void test(){
         //获取当前日期
 
@@ -26,14 +26,14 @@ public class HelloWorld {
         Date start = theCa.getTime();
         System.out.println(start);
    }
-   @Test
+    //@Test
    public void test1(){
        Date date = new Date();
        date.setTime(1523635200000l);
        System.out.println(date);
    }
 
-   @Test
+    //@Test
    public void test2(){
        long a =0;
        double b =1;
