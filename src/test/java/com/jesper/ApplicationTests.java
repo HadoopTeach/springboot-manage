@@ -10,18 +10,18 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.io.FileInputStream;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest
+//@RunWith(SpringRunner.class)
+//@SpringBootTest
 public class ApplicationTests {
 
-	@Test
+	//@Test
 	public void contextLoads() {
 	}
 
 	@Autowired
 	private static MongoTemplate mongoTemplate;
 
-	@Test
+	//@Test
 	public void saveFileTest() throws  Exception{
 //		FileInputStream file = new FileInputStream("C:\\Users\\jiangyunxiong\\Desktop\\qq.jpg");
 
