@@ -17,7 +17,7 @@ public class ApplicationTests {
 	//@Test
 	public void contextLoads() {
 	}
-
+	// 测试一下
 	@Autowired
 	private static MongoTemplate mongoTemplate;
 
